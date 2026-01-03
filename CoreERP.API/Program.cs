@@ -10,7 +10,7 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    Console.WriteLine("Development Environment");
+    Console.WriteLine("Running in Development Environment");
 } else
 {
     app.UseHttpsRedirection();
